@@ -2,7 +2,7 @@ __precompile__(true)
 module UnitfulOFU
 
 using Unitful
-import Unitful: N, W, g, Hz, @unit
+import Unitful: N, m, W, g, Hz, @unit
 
 #using Unitful: @unit
 export @ofu_str
@@ -19,6 +19,9 @@ export @ofu_str
 
 # OFU rpm
 @unit rpm   "rpm"       OFURPM        (1//60)*Hz                false
+
+# Define Nm
+@unit Nm    "Nm"        OFUNm         1m*1N                     true
 
 include("ofumacro.jl")
 
