@@ -1,4 +1,3 @@
-__precompile__(true)
 module UnitfulOFU
 
 using Unitful
