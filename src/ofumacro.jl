@@ -3,7 +3,7 @@
 macro ofu_str(unit)
 ```
 
-String macro to easily recall oil-field units located in the `UnitfulOFU`
+String macro to easily recall oil-field units located in the `UnitfulOfu`
 package. Although all unit symbols in that package are suffixed with `_ofu`,
 the suffix should not be used when using this macro.
 
@@ -55,12 +55,12 @@ dottify(s) = s
 
 function replace_value(sym::Symbol)
     s = Symbol(sym, :_us)
-    if !isdefined(UnitfulOFU, s)
+    if !isdefined(UnitfulOfu, s)
         error("Symbol $s could not be found in UnitfulUS.")
     end
 
-    expr = Expr(:(.), dottify(fullname(UnitfulOFU)...), QuoteNode(s))
-    return :(UnitfulOFU.ustrcheck($expr))
+    expr = Expr(:(.), dottify(fullname(UnitfulOfu)...), QuoteNode(s))
+    return :(UnitfulOfu.ustrcheck($expr))
 end
 
 replace_value(literal::Number) = literal
