@@ -1,4 +1,4 @@
-name = "UnitfulOFU"
+name = "UnitfulOfu"
 uuid = "c38b2286-e06d-5aaf-ac8c-46cde5afb720"
 license = "MIT"
 desc = "Oil Field Units extension to Unitful"
