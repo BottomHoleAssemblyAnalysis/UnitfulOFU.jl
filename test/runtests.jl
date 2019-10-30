@@ -1,8 +1,8 @@
-using UnitfulOFU, Test
+using UnitfulOfu, Test
 
 # write your own tests here
 
-println("Running tests for UnitfulOFU:")
+println("Running tests for UnitfulOfu:")
 
 tests = [
   "ofu_test.jl"
