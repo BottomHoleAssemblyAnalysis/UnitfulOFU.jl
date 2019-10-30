@@ -1,4 +1,4 @@
-module UnitfulOFU
+module UnitfulOfu
 
 using Unitful
 import Unitful: N, m, W, g, Hz, @unit
@@ -29,7 +29,7 @@ include("ofumacro.jl")
 const localunits = Unitful.basefactors
 function __init__()
     merge!(Unitful.basefactors, localunits)
-    Unitful.register(UnitfulOFU)
+    Unitful.register(UnitfulOfu)
 end
 
 end # module
