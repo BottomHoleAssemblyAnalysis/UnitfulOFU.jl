@@ -2,7 +2,7 @@ using UnitfulOfu, Test
 
 # write your own tests here
 
-println("Running tests for UnitfulOfu:")
+println("Running tests for UnitfulOFU:")
 
 tests = [
   "ofu_test.jl"
