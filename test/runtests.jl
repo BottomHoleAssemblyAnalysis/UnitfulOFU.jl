@@ -1,5 +1,4 @@
-using BHAAnalysis
-using Base.Test
+using UnitfulOFU, Test
 
 # write your own tests here
 

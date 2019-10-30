@@ -1,5 +1,5 @@
 #using Unitful, UnitfulOFU
-using Base.Test
+using Test
 
 import Unitful: ft, inch, m, g, kg, °C, °, W, kW, oz, Hz, rad, s, N, uconvert
 import UnitfulOFU: rpm, lbf, klbf, hp
