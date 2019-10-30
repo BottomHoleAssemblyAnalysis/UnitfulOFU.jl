@@ -1,5 +1,4 @@
-#using Unitful, UnitfulOfu
-using Test
+using Unitful, UnitfulOfu, Test
 
 import Unitful: ft, inch, m, g, kg, °C, °, W, kW, oz, Hz, rad, s, N, uconvert
 import UnitfulOfu: rpm, lbf, klbf, hp
